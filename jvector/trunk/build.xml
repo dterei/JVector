@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+
+<!-- ===================================================================== -->
+<!-- JVector                                                               -->
+<!-- Author: David Terei                                                   -->
+<!-- Ant 1.6.2 build file                                                  -->
+<!-- Version: 8                                                            -->
+<!-- ===================================================================== -->
+
+<project name="JVector" default="compile" basedir=".">
+
+	<property name="mainclass" value="com.terei.jvector.JVector"/>
+	<property name="srcdir" value="src"/>
+	<property name="bindir" value="bin"/>
+	<property name="libdir" value="lib"/>
+	<property name="docdir" value="javadoc"/>
+	<property name="installerdir" value="installer"/>
+	<property name="jar" value="${basedir}/${libdir}/dist/JVector.jar"/>
+	
+	<property name="log4j" value="C:\development\java\libaries\log4j-1.2.12\dist\lib\log4j-1.2.12.jar"/>
+	<property name="batik" value="C:\development\java\libaries\batik-1.6"/>	
+	<property name="browlaun2" value="C:\Documents and Settings\Dave\My Documents\Software Projects\BrowserLauncher2-all-10rc2\deployment\BrowserLauncher2.jar"/>
+	<property name="izpack" value="C:\development\IzPack"/>
+		
+	<property name="browser" value="C:\Program Files\Opera\Opera.exe"/>
+
+	
+	<!-- Allow user to override properties without editing this file -->
+	<property file="${user.home}/.ant.properties" />
+
+	<!-- Allows us to use the IzPack Ant task -->
+	<taskdef name="izpack" classpath="${izpack}/lib/compiler.jar"
+						classname="com.izforge.izpack.ant.IzPackTask"/>
+
+	<!-- ================================================================= -->
+	<!-- Compile                                                           -->
+	<!-- ================================================================= -->
+	<target name="compile" 
+		description="Compiles the source code for the project">
+		<echo>"Compile JVector"</echo>
+		<mkdir dir="${bindir}"/>
+		<javac srcdir="${srcdir}" destdir="${bindir}" debug="on" verbose="no">
+			<classpath>
+				<pathelement location="${log4j}"/>
+				<pathelement location="${browlaun2}"/>
+			</classpath>
+			<include name="**/*.java"/>
+			<include name="**/*.properties"/>
+			<exclude name="Plug-Ins/**/**.*"/>
+		</javac>
+		<copy todir="${bindir}">
+			<fileset dir="${srcdir}">
+				<exclude name="**/*.java"/>
+				<exclude name="**/*.db"/>				
+				<exclude name="**/.cvsignore"/>
+				<exclude name="**/**/.cvsignore"/>
+				<exclude name="Plug-Ins/**/**.*"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="compile_plugins" description="Compiles the image plugins" 
+		depends="compile, compile_plugins_jpg, compile_plugins_png, 
+		compile_plugins_svg">
+		<echo>"Compile JVector Plugins"</echo>
+	</target>
+
+	<target name="compile_plugins_jpg" 
+		description="Compiles and Jar's the JPG plugin"
+		depends="compile">
+		<echo>"Compile JVector JPG Plugin"</echo>
+		<mkdir dir="${bindir}\Plug-Ins\File Formats\JpgPlugin"/>
+		<javac srcdir="${srcdir}\Plug-Ins\File Formats\JpgPlugin" 
+			destdir="${bindir}\Plug-Ins\File Formats\JpgPlugin" debug="on" >
+			<classpath>
+				<pathelement location="${bindir}"/>
+				<pathelement location="${log4j}"/>			
+			</classpath>
+			<include name="**/*.java"/>
+			<include name="**/*.properties"/>
+		</javac>
+		<copy todir="${bindir}\Plug-Ins\File Formats\JpgPlugin">
+			<fileset dir="${srcdir}\Plug-Ins\File Formats\JpgPlugin">
+				<exclude name="**/*.java"/>
+			</fileset>
+		</copy>
+		<jar destfile="${bindir}\Plug-Ins\File Formats\JpgPlugin.jar" 
+			basedir="${bindir}\Plug-Ins\File Formats\JpgPlugin" >
+			<manifest>
+				<attribute name="Built-By" value="David Terei"/>
+				<attribute name="Class-Path" value="JpgPlugin.jar"/>
+			</manifest>
+		</jar>
+		<delete dir="${bindir}\Plug-Ins\File Formats\JpgPlugin"/>
+	</target>
+
+	<target name="compile_plugins_png" 
+		description="Compiles and Jar's the PNG plugin"
+		depends="compile">
+		<echo>"Compile JVector PNG Plugin"</echo>
+		<mkdir dir="${bindir}\Plug-Ins\File Formats\PngPlugin"/>
+		<javac srcdir="${srcdir}\Plug-Ins\File Formats\PngPlugin" 
+			destdir="${bindir}\Plug-Ins\File Formats\PngPlugin" debug="on" >
+			<classpath>
+				<pathelement location="${bindir}"/>
+				<pathelement location="${log4j}"/>			
+			</classpath>
+			<include name="**/*.java"/>
+			<include name="**/*.properties"/>
+		</javac>
+		<copy todir="${bindir}\Plug-Ins\File Formats\PngPlugin">
+			<fileset dir="${srcdir}\Plug-Ins\File Formats\PngPlugin">
+				<exclude name="**/*.java"/>
+			</fileset>
+		</copy>
+		<jar destfile="${bindir}\Plug-Ins\File Formats\PngPlugin.jar" 
+			basedir="${bindir}\Plug-Ins\File Formats\PngPlugin" >
+			<manifest>
+				<attribute name="Built-By" value="David Terei"/>
+				<attribute name="Class-Path" value="PngPlugin.jar"/>
+			</manifest>
+		</jar>
+		<delete dir="${bindir}\Plug-Ins\File Formats\PngPlugin"/>
+	</target>
+
+	<target name="compile_plugins_svg" 
+		description="Compiles and Jar's the SVG plugin"
+		depends="compile">
+		<echo>"Compile JVector SVG Plugin"</echo>
+		<mkdir dir="${bindir}\Plug-Ins\File Formats\SvgPlugin"/>
+		<javac srcdir="${srcdir}\Plug-Ins\File Formats\SvgPlugin" 
+			destdir="${bindir}\Plug-Ins\File Formats\SvgPlugin" debug="on" >
+			<classpath>
+				<pathelement location="${bindir}"/>
+				<pathelement location="${log4j}"/>
+				<fileset dir="${batik}\lib">
+					<include name="*.jar"/>
+				</fileset>
+			</classpath>
+			<include name="**/*.java"/>
+			<include name="**/*.properties"/>
+		</javac>
+		<copy todir="${bindir}\Plug-Ins\File Formats\SvgPlugin">
+			<fileset dir="${srcdir}\Plug-Ins\File Formats\SvgPlugin">
+				<exclude name="**/*.java"/>
+			</fileset>
+		</copy>
+		<jar destfile="${bindir}\Plug-Ins\File Formats\SvgPlugin.jar" 
+			basedir="${bindir}\Plug-Ins\File Formats\SvgPlugin" >
+			<manifest>
+				<attribute name="Built-By" value="David Terei"/>
+				<attribute name="Class-Path" value=".\SvgPlugin.jar"/>
+			</manifest>
+		</jar>
+		<delete dir="${bindir}\Plug-Ins\File Formats\SvgPlugin"/>
+	</target>
+
+	<!-- ================================================================= -->
+	<!-- Clean                                                             -->
+	<!-- ================================================================= -->
+	<target name="clean" description="Deletes the build directory">
+		<echo>"Clean the JVector build directory"</echo>
+		<delete>
+			<fileset dir="${bindir}" excludes="Plug-Ins/**/**.*"/>
+		</delete>
+	</target>
+	
+	<target name="clean_plugins" description="Deletes the build directory">
+		<echo>"Clean the JVector build directory"</echo>
+		<delete>
+			<fileset dir="${bindir}/Plug-Ins"/>
+		</delete>
+	</target>
+
+	<target name="clean_all" description="Cleans out the build directory incluiding plugins">
+		<echo> "Clean the JVector build directory" </echo>
+		<delete>
+				<fileset dir="${bindir}"/>
+		</delete>
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Build                                                               -->
+	<!-- =================================================================== -->
+	<target name="build" 
+		description="Cleans the output directory and then compiles the project" 
+		depends="clean, compile">
+		<echo>"Build JVector"</echo>
+	</target>
+	
+	<target name="build_all" 
+		description="Cleans the output directory and then compiles the project
+		incluiding plugins" 
+		depends="clean, clean_plugins, compile, compile_plugins">
+		<echo>"Build JVector and Plugins"</echo>
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Jar Packaging                                                       -->
+	<!-- =================================================================== -->
+	<target name="jar" 
+		description="Packages the program in a self executable jar archive" 
+		depends="compile">
+		<echo>"Create a self-executing Jar for JVector"</echo>
+		<mkdir dir="${basedir}/${libdir}/dist/logs"/>
+		<copy file="${log4j}" todir="${basedir}/${libdir}/dist" />
+		<copy file="${browlaun2}" todir="${basedir}/${libdir}/dist" />
+		<jar destfile="${jar}" 
+			basedir="${bindir}" 
+			filesonly="true" >
+			<exclude name="language.properties"/>
+			<exclude name="preferences.properties"/>
+			<exclude name="log.properties"/>
+			<exclude name="**/Thumbs.db"/>
+			<exclude name="**/.cvsignore"/>
+			<exclude name="logs/**.**"/>
+			<exclude name="**/*.jar"/>
+			<exclude name="Languages/**.**"/>
+			<manifest>
+				<attribute name="Built-By" value="David Terei"/>
+				<attribute name="Main-Class" value="${mainclass}"/>
+				<attribute name="Class-Path" 
+					value="log4j-1.2.12.jar BrowserLauncher2.jar"/>
+			</manifest>
+		</jar>
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Installer                                                           -->
+	<!-- =================================================================== -->
+	<target name="installer" 
+		description="Builds the JVector Installer, made with IzPack" 
+		depends="jar">
+		<echo>"Build the JVector Installer"</echo>
+		<!-- We call IzPack -->
+		<echo message="Makes the installer using IzPack"/>
+		<izpack input="${basedir}/${installerdir}/install.xml" 
+			output="${basedir}/${installerdir}/JVector-install.jar" 
+			installerType="standard" basedir="${installerdir}" 
+			izPackDir="${izpack}/"/>
+		<move file="${basedir}/${installerdir}/JVector-install.jar" 
+			tofile="${basedir}/${libdir}/dist/JVector-install.jar"/>
+	</target>
+
+
+	<!-- =================================================================== -->
+	<!-- Run Targets                                                         -->
+	<!-- =================================================================== -->
+	<target name="run_classes" 
+		description="Runs the project, from its class files" depends="compile">
+		<echo>"Run JVector (class files)"</echo>
+		<mkdir dir="${bindir}/logs"/>
+		<java classname="com.terei.jvector.JVector" fork="true" dir="${bindir}" 
+			failonerror="true" >
+			<classpath>
+				<pathelement location="${bindir}"/>
+				<pathelement location="${log4j}"/>
+				<pathelement location="${browlaun2}"/>				
+				<fileset dir="${batik}\lib">
+					<include name="*.jar"/>
+				</fileset>
+			</classpath>
+		</java>
+	</target>
+
+	<target name="run_jar" 
+		description="Runs the jar packaged version of the program." 
+		depends="jar">
+		<echo>"Run JVector (jar file)"</echo>
+		<java jar="${jar}" fork="true" 
+			failonerror="true" >
+			<classpath>
+				<pathelement location="${libdir}/dist/"/>
+			</classpath>
+		</java>
+	</target>
+
+	<target name="run_doc" 
+		description="Opens the API documentation in the browser specified">
+		<echo>"Open JVector Javadoc in browser specified by ${browser}"</echo>
+		<exec dir="${docdir}" executable="${browser}">
+			<arg line="'${basedir}/${docdir}/index.html'"/>
+		</exec>
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Packaging                                                           -->
+	<!-- =================================================================== -->
+	<target name="pack" 
+		description="Packages the src code and docs into a compressed tar archive (tar.gz)">
+		<echo>"Pack the JVector src files into a tar.gz archive"</echo>
+		<loadfile property="vers" srcFile="version.txt" failonerror="false"/>
+		<delete file="${libdir}/src/jvector-${vers}-source.tar.gz"/>
+		<tar destfile="jvector-${vers}-source.tar">
+			<tarfileset dir="${basedir}" prefix="jvector" >
+				<exclude name="jvector-${vers}-source.tar"/>
+				<exclude name=".project"/>
+				<exclude name=".classpath"/>
+				<exclude name="**/*.db"/>
+				<exclude name="${bindir}/**"/>
+				<exclude name="${docdir}/**"/>
+				<exclude name="${libdir}/**"/>
+			</tarfileset>
+		</tar>
+		<gzip zipfile="${libdir}/src/jvector-${vers}-source.tar.gz" 
+			src="jvector-${vers}-source.tar"/>
+		<delete file="jvector-${vers}-source.tar"/>
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Javadoc                                                             -->
+	<!-- =================================================================== -->
+	<target name="doc" 
+		description="Creates API documentation (JavaDocs) for the project">
+		<echo>"Build the JVector Javadoc"</echo>
+		<delete dir="${docdir}" failonerror="false"/>
+		<mkdir dir="${docdir}"/>
+		<javadoc destdir="${docdir}" access="private" use="true" notree="false" 
+			nonavbar="false" noindex="false" splitindex="true" author="true" 
+			version="true" nodeprecatedlist="false" nodeprecated="false" 			
+			packagenames="com.terei.jvector.language, com.terei.jvector.plugin,
+			com.terei.jvector.paint.shapes, com.terei.jvector.paint,
+			com.terei.jvector.gui,com.terei.jvector.gui.tools,
+			com.terei.jvector.gui.preferences,com.terei.jvector.util" 			
+			sourcefiles="src/com/terei/jvector/JVector.java" 			
+			sourcepath="src/Plug-Ins/File Formats/PngPlugin;
+			src/Plug-Ins/File Formats/JpgPlugin;
+			src/Plug-Ins/File Formats/SvgPlugin;src">						
+			<classpath>
+				<pathelement location="${bindir}"/>
+				<pathelement location="${log4j}"/>
+				<pathelement location="${browlaun2}"/>				
+				<fileset dir="${batik}\lib">
+					<include name="*.jar"/>
+				</fileset>
+			</classpath>			
+			<link href="http://xml.apache.org/batik/javadoc/"/>
+			<link href="http://logging.apache.org/log4j/docs/api/"/>
+			<link href="http://java.sun.com/j2se/1.5.0/docs/api/"/>
+			<link href="http://browserlaunch2.sourceforge.net/api/index.html"/>
+		</javadoc>
+	</target>
+
+</project>

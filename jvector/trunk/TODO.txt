@@ -1,0 +1,45 @@
+-----------
+Version 0.3
+-----------
+*      - Swatch adding and removing functionality
+*      - Ability to create own preset image dimensions
+*	   - Antialising Option
+
+*      - Show currently selected shape
+*      - Modification of pre existing shapes
+*      - Moving of layers
+
+*      - Proide a method of changing languages
+*      - Provide an autoupdate method (or just version checker).
+
+*      - General clean up of existing code, structure and src structure
+*      - Change code to use enumerations
+*      - Catch and handle* errors more elegantley
+*      - Improve performance of existing code
+*      - Better Handling of plugin errors
+
+-----------
+Version 0.2
+-----------
+* DONE - More drawing tools
+* DONE - Moving of shapes
+* DONE - Deletion of shapes
+* DONE - Plugin archetecture for saving to other image formats
+* DONE - At least a jpg output plugin
+* DONE - Add in Logging
+* DONE - Fix any major outstanding bugs. (Some still remain but many were fixed).
+* DONE - Add in Option Dialog
+* DONE - Loading Splash
+* DONE - Upgrade code to JDK1.5
+* DONE - Improve Browser launcher (upgrade,change to JDC, fix myself).
+
+-----------
+Version 0.1
+-----------
+* DONE - Interface pretty much up and running, but using placeholders
+* DONE - MDI support
+* DONE - New Image creation
+* DONE - Very basic shape drawing (Line, Rectangle, Oval, polygon)
+* DONE - Saving support to own format
+* DONE - Opening support of own format
+* DONE - Solid colouring of shapes
