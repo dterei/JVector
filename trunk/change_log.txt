@@ -1,0 +1,83 @@
+Version 0.22.0 -
+
+Version 0.20.1 -
+   * Source Clean Ups
+   * Fixed a few bugs
+   * Fixed SVG Plugin
+
+Version 0.20 - 26/10/05
+   * About Dialog Added
+   * Preferences Dialog Added although currently empty
+   * Startup preferences panel added to the preferences dialog
+   * Fixed Bug 8
+   * Changed loading of languages and propertie files to use file
+     input streams so that they are now stored outside the jar file
+   * Fixed Bug 10. Project is now using Java 5.0 (1.5) as default base
+   * Many Changes made updating code to 1.5
+   * Fixed Bug with moving lines while zoomed in
+   * Many minor bug fixes and cleanups
+   * Updated BrowserLauncher code to BrowserLauncher2
+   * Fixed Bug 9
+   * Changed the tools coded over to enumerations (partially).
+   * Fixed Bug 12
+   * Fixed Bug 6
+   * Saved images now opened at saved zoom
+
+Version 0.18 - 06/06/04
+   * Ability to use image output plugins added!
+   * JPG output plugin added
+   * PNG output plugin added
+   * SVG output plugin added
+
+Version 0.15 - 01/06/04
+   * Logging Added! Now you can all start submitting those bug reports
+   * Closing of files now availble!
+   * Lots of Zooming Bugs fixed
+   * Installer created with IzPack!
+
+Version 0.14 - 23/05/04
+   * Shape Drawing changed to be more standard, click and drag now
+   * Loading Splash added!
+   * Zoom Support Added! But pretty buggy at moment
+   * Several Bugs Fixed
+
+Version 0.12 - 19/05/04
+   * Text Tool added
+   * Selection Tool Added! Shapes can now be moved and deleted
+   * Zoom Support added but buggy!
+
+Version 0.1 - 18/05/04
+    * Saving and opening support added! now the program performs a some what
+      remotley useful function!
+
+Version 0.07 - 16/05/04
+    * Null colour display for swatches modifyed
+    * Transparency option added, to both outline and fill, and they act
+      independently!
+    * Polygon tool added
+
+Version 0.06 - 15/05/04
+    * Fixed Bug 3
+    * Oval tool added
+    * Many bugs, fixes and enhancments done to the Color Selection tool
+
+Version 0.05 - 13/05/04
+    * Color Selection Tool Added
+    * Fixed Bug 2
+    * Currrent tools now support colors
+
+Version 0.04 - 07/05/04.
+    * Added unit selections to new image creation (cm, pixels, inches)
+    * Added the rectangle tool
+    * Fixed Bug 1
+
+Version 0.03 - 27/04/04
+	* Fixed several bugs relating to multiple images being open and eddited at
+	  the same time
+	* Added the line tool
+	* Added a toolbar that goes with the line tool to set several options
+	  (currently it is mearly a placeholder)
+
+Version 0.01 - 24/04/04
+	* First Release
+	* Interface layout complete

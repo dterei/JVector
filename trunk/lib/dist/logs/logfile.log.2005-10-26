@@ -1,0 +1,1438 @@
+DEBUG JVector [setupLog] - Log Started...
+INFO  JVector [setupLog] - ***System Environment As Seen By Java***
+INFO  JVector [setupLog] - ***Format: PROPERTY = VALUE***
+INFO  JVector [setupLog] - java.runtime.name = Java(TM) 2 Runtime Environment, Standard Edition
+INFO  JVector [setupLog] - sun.boot.library.path = C:\Program Files\Java\jre1.5.0_05\bin
+INFO  JVector [setupLog] - java.vm.version = 1.5.0_05-b05
+INFO  JVector [setupLog] - java.vm.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - java.vendor.url = http://java.sun.com/
+INFO  JVector [setupLog] - path.separator = ;
+INFO  JVector [setupLog] - java.vm.name = Java HotSpot(TM) Client VM
+INFO  JVector [setupLog] - file.encoding.pkg = sun.io
+INFO  JVector [setupLog] - user.country = AU
+INFO  JVector [setupLog] - sun.os.patch.level = Service Pack 2
+INFO  JVector [setupLog] - java.vm.specification.name = Java Virtual Machine Specification
+INFO  JVector [setupLog] - user.dir = C:\Documents and Settings\Dave\My Documents\Software Projects\Yr 12 SDD Major\JVector\JVector\lib\dist
+INFO  JVector [setupLog] - java.runtime.version = 1.5.0_05-b05
+INFO  JVector [setupLog] - java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+INFO  JVector [setupLog] - java.endorsed.dirs = C:\Program Files\Java\jre1.5.0_05\lib\endorsed
+INFO  JVector [setupLog] - os.arch = x86
+INFO  JVector [setupLog] - java.io.tmpdir = C:\DOCUME~1\Dave\LOCALS~1\Temp\
+INFO  JVector [setupLog] - line.separator = 
+
+INFO  JVector [setupLog] - java.vm.specification.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - user.variant = 
+INFO  JVector [setupLog] - os.name = Windows XP
+INFO  JVector [setupLog] - sun.jnu.encoding = Cp1252
+INFO  JVector [setupLog] - java.library.path = C:\WINDOWS\system32;.;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\development\java\apache-ant\bin;C:\development\java\jdk1.5.0_05\bin;C:\Program Files\Common Files\GTK\2.0\bin;C:\Program Files\PuTTY;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\backburner 2\;C:\development\java\jikes-1.21\bin;C:\MATLAB7\bin\win32;C:\development\msys\bin;C:\development\msys\mingw\bin;C:\development\bin;C:\Program Files\ATI Technologies\ATI.ACE\;C:\Program Files\GnuPG
+INFO  JVector [setupLog] - java.specification.name = Java Platform API Specification
+INFO  JVector [setupLog] - java.class.version = 49.0
+INFO  JVector [setupLog] - sun.management.compiler = HotSpot Client Compiler
+INFO  JVector [setupLog] - os.version = 5.1
+INFO  JVector [setupLog] - user.home = C:\Documents and Settings\Dave
+INFO  JVector [setupLog] - user.timezone = Australia/Sydney
+INFO  JVector [setupLog] - java.awt.printerjob = sun.awt.windows.WPrinterJob
+INFO  JVector [setupLog] - file.encoding = Cp1252
+INFO  JVector [setupLog] - java.specification.version = 1.5
+INFO  JVector [setupLog] - user.name = Dave
+INFO  JVector [setupLog] - java.class.path = JVector.jar
+INFO  JVector [setupLog] - java.vm.specification.version = 1.0
+INFO  JVector [setupLog] - sun.arch.data.model = 32
+INFO  JVector [setupLog] - java.home = C:\Program Files\Java\jre1.5.0_05
+INFO  JVector [setupLog] - java.specification.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - user.language = en
+INFO  JVector [setupLog] - awt.toolkit = sun.awt.windows.WToolkit
+INFO  JVector [setupLog] - java.vm.info = mixed mode, sharing
+INFO  JVector [setupLog] - java.version = 1.5.0_05
+INFO  JVector [setupLog] - java.ext.dirs = C:\Program Files\Java\jre1.5.0_05\lib\ext
+INFO  JVector [setupLog] - sun.boot.class.path = C:\Program Files\Java\jre1.5.0_05\lib\rt.jar;C:\Program Files\Java\jre1.5.0_05\lib\i18n.jar;C:\Program Files\Java\jre1.5.0_05\lib\sunrsasign.jar;C:\Program Files\Java\jre1.5.0_05\lib\jsse.jar;C:\Program Files\Java\jre1.5.0_05\lib\jce.jar;C:\Program Files\Java\jre1.5.0_05\lib\charsets.jar;C:\Program Files\Java\jre1.5.0_05\classes
+INFO  JVector [setupLog] - java.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - file.separator = \
+INFO  JVector [setupLog] - java.vendor.url.bug = http://java.sun.com/cgi-bin/bugreport.cgi
+INFO  JVector [setupLog] - sun.cpu.endian = little
+INFO  JVector [setupLog] - sun.io.unicode.encoding = UnicodeLittle
+INFO  JVector [setupLog] - sun.desktop = windows
+INFO  JVector [setupLog] - sun.cpu.isalist = pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+DEBUG JVector [setupLog] - ************************************
+INFO  JVector [setLookAndFeel] - Setting Look and Feel
+DEBUG JVector [setLookAndFeel] - setLookAndFeel() - end
+INFO  JVector [main] - Initialize JVector
+INFO  JVector [<init>] - Starting SplashScreen
+DEBUG JVector [loadProperties] - loadProperties() - start
+DEBUG JVector [loadProperties] - loadProperties() - end
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/splash.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG SplashScreen [<init>] - ImageIcon(ImageIcon jar:file:/C:/Documents%20and%20Settings/Dave/My%20Documents/Software%20Projects/Yr%2012%20SDD%20Major/JVector/JVector/lib/dist/JVector.jar!/Resources/splash.png) - start
+INFO  JVector [<init>] - Setting up GUI...
+DEBUG JVector [<init>] - Creating ColorPanel
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG ColorPanel [initGUI] - initGUI() - start
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/new.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/info.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/switcher.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG ColorPanel [initGUI] - initGUI() - end
+DEBUG ColorPanel [loadSwatches] - loadSwatches() - start
+DEBUG ColorPanel [getSwatches] - getSwatches() - start
+DEBUG ColorPanel [getSwatches] - getSwatches() - end
+DEBUG ColorPanel [loadSwatches] - loadSwatches() - end
+DEBUG JVector [setupFrame] - Setting up the frame
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/icon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [setupFrame] - setupFrame() - end
+DEBUG JVector [setupStatusBar] - Setup Status Bar
+DEBUG JVector [setupStatusBar] - setupStatusBar() - end
+DEBUG JVector [setupMenu] - Setup Menu
+DEBUG JVector [setupFileJM] - Setup File Menu
+DEBUG JVector [createMenuItem] - Create Menu Item: File.New
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Open
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Save
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.SaveAs
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Close
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Export
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Exit
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupFileJM] - setupFileJM() - end
+DEBUG JVector [setupOptionsJM] - setupOptionsJM() - start
+DEBUG JVector [createMenuItem] - Create Menu Item: Options.Preferences
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupOptionsJM] - setupOptionsJM() - end
+DEBUG JVector [setupHelpJM] - setupHelpJM() - start
+DEBUG JVector [createMenuItem] - Create Menu Item: Help.Homepage
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: Help.About
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupHelpJM] - setupHelpJM() - end
+DEBUG JVector [setupMenu] - setupMenu() - end
+DEBUG JVector [setupEditorPane] - Setup the image editing area
+DEBUG JVector [setupToolBar] - setup the tool toolbar
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/zoom_cursor.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createTool] - create tool: select.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/select.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: SELECT
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: line.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/line.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: LINE
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: rectangle.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/rectangle.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: RECTANGLE
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: oval.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/oval.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: OVAL
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: polygon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/polygon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: POLYGON
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: text.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/text.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: TEXT
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: DELETE
+DEBUG JVector [createDeleteListener] - createDeleteListener Listener
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: zoom.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/zoom.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: ZOOM
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [setupToolBar] - setupToolBar() - end
+DEBUG JVector [initExtraBar] - Create 'Extra' tool bar
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector [initExtraBar] - initExtraBar() - end
+DEBUG JVector [setupTabbedPane] - Setup the tabbed image pane GUI
+DEBUG JVector [setupTabbedPane] - setupTabbedPane() - end
+DEBUG JVector [setupEditorPane] - setupEditorPane() - end
+DEBUG JVector$FrameShower [<init>] - FrameShower(Frame) - start
+DEBUG JVector$FrameShower [run] - run() - start
+DEBUG JVector$FrameShower [run] - run() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - start
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - start
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+INFO  JVector [main] - Open any images passed in as arguments
+DEBUG JVector [main] - Create new image for debugging
+INFO  JVector [newImage] - new Image: Debug 1,400,400,Shapes: false
+DEBUG JVector [newImage] - newImage(String, int, int, Shape[]) - end
+INFO  JVector [newImage] - new Image: Debug 2,400,400,Shapes: false
+DEBUG JVector [newImage] - newImage(String, int, int, Shape[]) - end
+DEBUG JVector [actionPerformed] - actionPerformed(ActionEvent) - start
+DEBUG JVector [export] - export() - start
+DEBUG JVector [setupLog] - Log Started...
+INFO  JVector [setupLog] - ***System Environment As Seen By Java***
+INFO  JVector [setupLog] - ***Format: PROPERTY = VALUE***
+INFO  JVector [setupLog] - java.runtime.name = Java(TM) 2 Runtime Environment, Standard Edition
+INFO  JVector [setupLog] - sun.boot.library.path = C:\Program Files\Java\jre1.5.0_05\bin
+INFO  JVector [setupLog] - java.vm.version = 1.5.0_05-b05
+INFO  JVector [setupLog] - java.vm.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - java.vendor.url = http://java.sun.com/
+INFO  JVector [setupLog] - path.separator = ;
+INFO  JVector [setupLog] - java.vm.name = Java HotSpot(TM) Client VM
+INFO  JVector [setupLog] - file.encoding.pkg = sun.io
+INFO  JVector [setupLog] - user.country = AU
+INFO  JVector [setupLog] - sun.os.patch.level = Service Pack 2
+INFO  JVector [setupLog] - java.vm.specification.name = Java Virtual Machine Specification
+INFO  JVector [setupLog] - user.dir = C:\Documents and Settings\Dave\My Documents\Software Projects\Yr 12 SDD Major\JVector\JVector\lib\dist
+INFO  JVector [setupLog] - java.runtime.version = 1.5.0_05-b05
+INFO  JVector [setupLog] - java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+INFO  JVector [setupLog] - java.endorsed.dirs = C:\Program Files\Java\jre1.5.0_05\lib\endorsed
+INFO  JVector [setupLog] - os.arch = x86
+INFO  JVector [setupLog] - java.io.tmpdir = C:\DOCUME~1\Dave\LOCALS~1\Temp\
+INFO  JVector [setupLog] - line.separator = 
+
+INFO  JVector [setupLog] - java.vm.specification.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - user.variant = 
+INFO  JVector [setupLog] - os.name = Windows XP
+INFO  JVector [setupLog] - sun.jnu.encoding = Cp1252
+INFO  JVector [setupLog] - java.library.path = C:\WINDOWS\system32;.;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\development\java\apache-ant\bin;C:\development\java\jdk1.5.0_05\bin;C:\Program Files\Common Files\GTK\2.0\bin;C:\Program Files\PuTTY;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\backburner 2\;C:\development\java\jikes-1.21\bin;C:\MATLAB7\bin\win32;C:\development\msys\bin;C:\development\msys\mingw\bin;C:\development\bin;C:\Program Files\ATI Technologies\ATI.ACE\;C:\Program Files\GnuPG
+INFO  JVector [setupLog] - java.specification.name = Java Platform API Specification
+INFO  JVector [setupLog] - java.class.version = 49.0
+INFO  JVector [setupLog] - sun.management.compiler = HotSpot Client Compiler
+INFO  JVector [setupLog] - os.version = 5.1
+INFO  JVector [setupLog] - user.home = C:\Documents and Settings\Dave
+INFO  JVector [setupLog] - user.timezone = Australia/Sydney
+INFO  JVector [setupLog] - java.awt.printerjob = sun.awt.windows.WPrinterJob
+INFO  JVector [setupLog] - file.encoding = Cp1252
+INFO  JVector [setupLog] - java.specification.version = 1.5
+INFO  JVector [setupLog] - user.name = Dave
+INFO  JVector [setupLog] - java.class.path = JVector.jar
+INFO  JVector [setupLog] - java.vm.specification.version = 1.0
+INFO  JVector [setupLog] - sun.arch.data.model = 32
+INFO  JVector [setupLog] - java.home = C:\Program Files\Java\jre1.5.0_05
+INFO  JVector [setupLog] - java.specification.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - user.language = en
+INFO  JVector [setupLog] - awt.toolkit = sun.awt.windows.WToolkit
+INFO  JVector [setupLog] - java.vm.info = mixed mode, sharing
+INFO  JVector [setupLog] - java.version = 1.5.0_05
+INFO  JVector [setupLog] - java.ext.dirs = C:\Program Files\Java\jre1.5.0_05\lib\ext
+INFO  JVector [setupLog] - sun.boot.class.path = C:\Program Files\Java\jre1.5.0_05\lib\rt.jar;C:\Program Files\Java\jre1.5.0_05\lib\i18n.jar;C:\Program Files\Java\jre1.5.0_05\lib\sunrsasign.jar;C:\Program Files\Java\jre1.5.0_05\lib\jsse.jar;C:\Program Files\Java\jre1.5.0_05\lib\jce.jar;C:\Program Files\Java\jre1.5.0_05\lib\charsets.jar;C:\Program Files\Java\jre1.5.0_05\classes
+INFO  JVector [setupLog] - java.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - file.separator = \
+INFO  JVector [setupLog] - java.vendor.url.bug = http://java.sun.com/cgi-bin/bugreport.cgi
+INFO  JVector [setupLog] - sun.cpu.endian = little
+INFO  JVector [setupLog] - sun.io.unicode.encoding = UnicodeLittle
+INFO  JVector [setupLog] - sun.desktop = windows
+INFO  JVector [setupLog] - sun.cpu.isalist = pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+DEBUG JVector [setupLog] - ************************************
+INFO  JVector [setLookAndFeel] - Setting Look and Feel
+DEBUG JVector [setLookAndFeel] - setLookAndFeel() - end
+INFO  JVector [main] - Initialize JVector
+INFO  JVector [<init>] - Starting SplashScreen
+DEBUG JVector [loadProperties] - loadProperties() - start
+DEBUG JVector [loadProperties] - loadProperties() - end
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/splash.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG SplashScreen [<init>] - ImageIcon(ImageIcon jar:file:/C:/Documents%20and%20Settings/Dave/My%20Documents/Software%20Projects/Yr%2012%20SDD%20Major/JVector/JVector/lib/dist/JVector.jar!/Resources/splash.png) - start
+INFO  JVector [<init>] - Setting up GUI...
+DEBUG JVector [<init>] - Creating ColorPanel
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG ColorPanel [initGUI] - initGUI() - start
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/new.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/info.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/switcher.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG ColorPanel [initGUI] - initGUI() - end
+DEBUG ColorPanel [loadSwatches] - loadSwatches() - start
+DEBUG ColorPanel [getSwatches] - getSwatches() - start
+DEBUG ColorPanel [getSwatches] - getSwatches() - end
+DEBUG ColorPanel [loadSwatches] - loadSwatches() - end
+DEBUG JVector [setupFrame] - Setting up the frame
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/icon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [setupFrame] - setupFrame() - end
+DEBUG JVector [setupStatusBar] - Setup Status Bar
+DEBUG JVector [setupStatusBar] - setupStatusBar() - end
+DEBUG JVector [setupMenu] - Setup Menu
+DEBUG JVector [setupFileJM] - Setup File Menu
+DEBUG JVector [createMenuItem] - Create Menu Item: File.New
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Open
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Save
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.SaveAs
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Close
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Export
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Exit
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupFileJM] - setupFileJM() - end
+DEBUG JVector [setupOptionsJM] - setupOptionsJM() - start
+DEBUG JVector [createMenuItem] - Create Menu Item: Options.Preferences
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupOptionsJM] - setupOptionsJM() - end
+DEBUG JVector [setupHelpJM] - setupHelpJM() - start
+DEBUG JVector [createMenuItem] - Create Menu Item: Help.Homepage
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: Help.About
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupHelpJM] - setupHelpJM() - end
+DEBUG JVector [setupMenu] - setupMenu() - end
+DEBUG JVector [setupEditorPane] - Setup the image editing area
+DEBUG JVector [setupToolBar] - setup the tool toolbar
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/zoom_cursor.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createTool] - create tool: select.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/select.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: SELECT
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: line.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/line.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: LINE
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: rectangle.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/rectangle.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: RECTANGLE
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: oval.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/oval.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: OVAL
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: polygon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/polygon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: POLYGON
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: text.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/text.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: TEXT
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: DELETE
+DEBUG JVector [createDeleteListener] - createDeleteListener Listener
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: zoom.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/zoom.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: ZOOM
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [setupToolBar] - setupToolBar() - end
+DEBUG JVector [initExtraBar] - Create 'Extra' tool bar
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector [initExtraBar] - initExtraBar() - end
+DEBUG JVector [setupTabbedPane] - Setup the tabbed image pane GUI
+DEBUG JVector [setupTabbedPane] - setupTabbedPane() - end
+DEBUG JVector [setupEditorPane] - setupEditorPane() - end
+DEBUG JVector$FrameShower [<init>] - FrameShower(Frame) - start
+DEBUG JVector$FrameShower [run] - run() - start
+DEBUG JVector$FrameShower [run] - run() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - start
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - start
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+INFO  JVector [main] - Open any images passed in as arguments
+DEBUG JVector [main] - Create new image for debugging
+INFO  JVector [newImage] - new Image: Debug 1,400,400,Shapes: false
+DEBUG JVector [newImage] - newImage(String, int, int, Shape[]) - end
+INFO  JVector [newImage] - new Image: Debug 2,400,400,Shapes: false
+DEBUG JVector [newImage] - newImage(String, int, int, Shape[]) - end
+DEBUG JVector [actionPerformed] - actionPerformed(ActionEvent) - start
+DEBUG JVector [export] - export() - start
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG ImageExporter [export] - export(ImageFile, File) - start
+DEBUG JVector [export] - export() - end
+DEBUG JVector [actionPerformed] - actionPerformed(ActionEvent) - end
+DEBUG JVector [setupLog] - Log Started...
+INFO  JVector [setupLog] - ***System Environment As Seen By Java***
+INFO  JVector [setupLog] - ***Format: PROPERTY = VALUE***
+INFO  JVector [setupLog] - java.runtime.name = Java(TM) 2 Runtime Environment, Standard Edition
+INFO  JVector [setupLog] - sun.boot.library.path = C:\Program Files\Java\jre1.5.0_05\bin
+INFO  JVector [setupLog] - java.vm.version = 1.5.0_05-b05
+INFO  JVector [setupLog] - java.vm.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - java.vendor.url = http://java.sun.com/
+INFO  JVector [setupLog] - path.separator = ;
+INFO  JVector [setupLog] - java.vm.name = Java HotSpot(TM) Client VM
+INFO  JVector [setupLog] - file.encoding.pkg = sun.io
+INFO  JVector [setupLog] - user.country = AU
+INFO  JVector [setupLog] - sun.os.patch.level = Service Pack 2
+INFO  JVector [setupLog] - java.vm.specification.name = Java Virtual Machine Specification
+INFO  JVector [setupLog] - user.dir = C:\Documents and Settings\Dave\My Documents\Software Projects\Yr 12 SDD Major\JVector\JVector\lib\dist
+INFO  JVector [setupLog] - java.runtime.version = 1.5.0_05-b05
+INFO  JVector [setupLog] - java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+INFO  JVector [setupLog] - java.endorsed.dirs = C:\Program Files\Java\jre1.5.0_05\lib\endorsed
+INFO  JVector [setupLog] - os.arch = x86
+INFO  JVector [setupLog] - java.io.tmpdir = C:\DOCUME~1\Dave\LOCALS~1\Temp\
+INFO  JVector [setupLog] - line.separator = 
+
+INFO  JVector [setupLog] - java.vm.specification.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - user.variant = 
+INFO  JVector [setupLog] - os.name = Windows XP
+INFO  JVector [setupLog] - sun.jnu.encoding = Cp1252
+INFO  JVector [setupLog] - java.library.path = C:\WINDOWS\system32;.;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\development\java\apache-ant\bin;C:\development\java\jdk1.5.0_05\bin;C:\Program Files\Common Files\GTK\2.0\bin;C:\Program Files\PuTTY;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\backburner 2\;C:\development\java\jikes-1.21\bin;C:\MATLAB7\bin\win32;C:\development\msys\bin;C:\development\msys\mingw\bin;C:\development\bin;C:\Program Files\ATI Technologies\ATI.ACE\;C:\Program Files\GnuPG
+INFO  JVector [setupLog] - java.specification.name = Java Platform API Specification
+INFO  JVector [setupLog] - java.class.version = 49.0
+INFO  JVector [setupLog] - sun.management.compiler = HotSpot Client Compiler
+INFO  JVector [setupLog] - os.version = 5.1
+INFO  JVector [setupLog] - user.home = C:\Documents and Settings\Dave
+INFO  JVector [setupLog] - user.timezone = Australia/Sydney
+INFO  JVector [setupLog] - java.awt.printerjob = sun.awt.windows.WPrinterJob
+INFO  JVector [setupLog] - file.encoding = Cp1252
+INFO  JVector [setupLog] - java.specification.version = 1.5
+INFO  JVector [setupLog] - user.name = Dave
+INFO  JVector [setupLog] - java.class.path = JVector.jar
+INFO  JVector [setupLog] - java.vm.specification.version = 1.0
+INFO  JVector [setupLog] - sun.arch.data.model = 32
+INFO  JVector [setupLog] - java.home = C:\Program Files\Java\jre1.5.0_05
+INFO  JVector [setupLog] - java.specification.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - user.language = en
+INFO  JVector [setupLog] - awt.toolkit = sun.awt.windows.WToolkit
+INFO  JVector [setupLog] - java.vm.info = mixed mode, sharing
+INFO  JVector [setupLog] - java.version = 1.5.0_05
+INFO  JVector [setupLog] - java.ext.dirs = C:\Program Files\Java\jre1.5.0_05\lib\ext
+INFO  JVector [setupLog] - sun.boot.class.path = C:\Program Files\Java\jre1.5.0_05\lib\rt.jar;C:\Program Files\Java\jre1.5.0_05\lib\i18n.jar;C:\Program Files\Java\jre1.5.0_05\lib\sunrsasign.jar;C:\Program Files\Java\jre1.5.0_05\lib\jsse.jar;C:\Program Files\Java\jre1.5.0_05\lib\jce.jar;C:\Program Files\Java\jre1.5.0_05\lib\charsets.jar;C:\Program Files\Java\jre1.5.0_05\classes
+INFO  JVector [setupLog] - java.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - file.separator = \
+INFO  JVector [setupLog] - java.vendor.url.bug = http://java.sun.com/cgi-bin/bugreport.cgi
+INFO  JVector [setupLog] - sun.cpu.endian = little
+INFO  JVector [setupLog] - sun.io.unicode.encoding = UnicodeLittle
+INFO  JVector [setupLog] - sun.desktop = windows
+INFO  JVector [setupLog] - sun.cpu.isalist = pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+DEBUG JVector [setupLog] - ************************************
+INFO  JVector [setLookAndFeel] - Setting Look and Feel
+DEBUG JVector [setLookAndFeel] - setLookAndFeel() - end
+INFO  JVector [main] - Initialize JVector
+INFO  JVector [<init>] - Starting SplashScreen
+DEBUG JVector [loadProperties] - loadProperties() - start
+DEBUG JVector [loadProperties] - loadProperties() - end
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/splash.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG SplashScreen [<init>] - ImageIcon(ImageIcon jar:file:/C:/Documents%20and%20Settings/Dave/My%20Documents/Software%20Projects/Yr%2012%20SDD%20Major/JVector/JVector/lib/dist/JVector.jar!/Resources/splash.png) - start
+INFO  JVector [<init>] - Setting up GUI...
+DEBUG JVector [<init>] - Creating ColorPanel
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG ColorPanel [initGUI] - initGUI() - start
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/new.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/info.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/switcher.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG ColorPanel [initGUI] - initGUI() - end
+DEBUG ColorPanel [loadSwatches] - loadSwatches() - start
+DEBUG ColorPanel [getSwatches] - getSwatches() - start
+DEBUG ColorPanel [getSwatches] - getSwatches() - end
+DEBUG ColorPanel [loadSwatches] - loadSwatches() - end
+DEBUG JVector [setupFrame] - Setting up the frame
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/icon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [setupFrame] - setupFrame() - end
+DEBUG JVector [setupStatusBar] - Setup Status Bar
+DEBUG JVector [setupStatusBar] - setupStatusBar() - end
+DEBUG JVector [setupMenu] - Setup Menu
+DEBUG JVector [setupFileJM] - Setup File Menu
+DEBUG JVector [createMenuItem] - Create Menu Item: File.New
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Open
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Save
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.SaveAs
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Close
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Export
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Exit
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupFileJM] - setupFileJM() - end
+DEBUG JVector [setupOptionsJM] - setupOptionsJM() - start
+DEBUG JVector [createMenuItem] - Create Menu Item: Options.Preferences
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupOptionsJM] - setupOptionsJM() - end
+DEBUG JVector [setupHelpJM] - setupHelpJM() - start
+DEBUG JVector [createMenuItem] - Create Menu Item: Help.Homepage
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: Help.About
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupHelpJM] - setupHelpJM() - end
+DEBUG JVector [setupMenu] - setupMenu() - end
+DEBUG JVector [setupEditorPane] - Setup the image editing area
+DEBUG JVector [setupToolBar] - setup the tool toolbar
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/zoom_cursor.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createTool] - create tool: select.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/select.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: SELECT
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: line.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/line.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: LINE
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: rectangle.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/rectangle.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: RECTANGLE
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: oval.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/oval.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: OVAL
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: polygon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/polygon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: POLYGON
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: text.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/text.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: TEXT
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: DELETE
+DEBUG JVector [createDeleteListener] - createDeleteListener Listener
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: zoom.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/zoom.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: ZOOM
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [setupToolBar] - setupToolBar() - end
+DEBUG JVector [initExtraBar] - Create 'Extra' tool bar
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector [initExtraBar] - initExtraBar() - end
+DEBUG JVector [setupTabbedPane] - Setup the tabbed image pane GUI
+DEBUG JVector [setupTabbedPane] - setupTabbedPane() - end
+DEBUG JVector [setupEditorPane] - setupEditorPane() - end
+DEBUG JVector$FrameShower [<init>] - FrameShower(Frame) - start
+DEBUG JVector$FrameShower [run] - run() - start
+DEBUG JVector$FrameShower [run] - run() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - start
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - start
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+INFO  JVector [main] - Open any images passed in as arguments
+DEBUG JVector [main] - Create new image for debugging
+INFO  JVector [newImage] - new Image: Debug 1,400,400,Shapes: false
+DEBUG JVector [newImage] - newImage(String, int, int, Shape[]) - end
+INFO  JVector [newImage] - new Image: Debug 2,400,400,Shapes: false
+DEBUG JVector [newImage] - newImage(String, int, int, Shape[]) - end
+DEBUG JVector [actionPerformed] - actionPerformed(ActionEvent) - start
+DEBUG JVector [export] - export() - start
+DEBUG JVector [setupLog] - Log Started...
+INFO  JVector [setupLog] - ***System Environment As Seen By Java***
+INFO  JVector [setupLog] - ***Format: PROPERTY = VALUE***
+INFO  JVector [setupLog] - java.runtime.name = Java(TM) 2 Runtime Environment, Standard Edition
+INFO  JVector [setupLog] - sun.boot.library.path = C:\Program Files\Java\jre1.5.0_05\bin
+INFO  JVector [setupLog] - java.vm.version = 1.5.0_05-b05
+INFO  JVector [setupLog] - java.vm.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - java.vendor.url = http://java.sun.com/
+INFO  JVector [setupLog] - path.separator = ;
+INFO  JVector [setupLog] - java.vm.name = Java HotSpot(TM) Client VM
+INFO  JVector [setupLog] - file.encoding.pkg = sun.io
+INFO  JVector [setupLog] - user.country = AU
+INFO  JVector [setupLog] - sun.os.patch.level = Service Pack 2
+INFO  JVector [setupLog] - java.vm.specification.name = Java Virtual Machine Specification
+INFO  JVector [setupLog] - user.dir = C:\Documents and Settings\Dave\My Documents\Software Projects\Yr 12 SDD Major\JVector\JVector\lib\dist
+INFO  JVector [setupLog] - java.runtime.version = 1.5.0_05-b05
+INFO  JVector [setupLog] - java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+INFO  JVector [setupLog] - java.endorsed.dirs = C:\Program Files\Java\jre1.5.0_05\lib\endorsed
+INFO  JVector [setupLog] - os.arch = x86
+INFO  JVector [setupLog] - java.io.tmpdir = C:\DOCUME~1\Dave\LOCALS~1\Temp\
+INFO  JVector [setupLog] - line.separator = 
+
+INFO  JVector [setupLog] - java.vm.specification.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - user.variant = 
+INFO  JVector [setupLog] - os.name = Windows XP
+INFO  JVector [setupLog] - sun.jnu.encoding = Cp1252
+INFO  JVector [setupLog] - java.library.path = C:\WINDOWS\system32;.;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\development\java\apache-ant\bin;C:\development\java\jdk1.5.0_05\bin;C:\Program Files\Common Files\GTK\2.0\bin;C:\Program Files\PuTTY;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\backburner 2\;C:\development\java\jikes-1.21\bin;C:\MATLAB7\bin\win32;C:\development\msys\bin;C:\development\msys\mingw\bin;C:\development\bin;C:\Program Files\ATI Technologies\ATI.ACE\;C:\Program Files\GnuPG
+INFO  JVector [setupLog] - java.specification.name = Java Platform API Specification
+INFO  JVector [setupLog] - java.class.version = 49.0
+INFO  JVector [setupLog] - sun.management.compiler = HotSpot Client Compiler
+INFO  JVector [setupLog] - os.version = 5.1
+INFO  JVector [setupLog] - user.home = C:\Documents and Settings\Dave
+INFO  JVector [setupLog] - user.timezone = Australia/Sydney
+INFO  JVector [setupLog] - java.awt.printerjob = sun.awt.windows.WPrinterJob
+INFO  JVector [setupLog] - file.encoding = Cp1252
+INFO  JVector [setupLog] - java.specification.version = 1.5
+INFO  JVector [setupLog] - user.name = Dave
+INFO  JVector [setupLog] - java.class.path = JVector.jar
+INFO  JVector [setupLog] - java.vm.specification.version = 1.0
+INFO  JVector [setupLog] - sun.arch.data.model = 32
+INFO  JVector [setupLog] - java.home = C:\Program Files\Java\jre1.5.0_05
+INFO  JVector [setupLog] - java.specification.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - user.language = en
+INFO  JVector [setupLog] - awt.toolkit = sun.awt.windows.WToolkit
+INFO  JVector [setupLog] - java.vm.info = mixed mode, sharing
+INFO  JVector [setupLog] - java.version = 1.5.0_05
+INFO  JVector [setupLog] - java.ext.dirs = C:\Program Files\Java\jre1.5.0_05\lib\ext
+INFO  JVector [setupLog] - sun.boot.class.path = C:\Program Files\Java\jre1.5.0_05\lib\rt.jar;C:\Program Files\Java\jre1.5.0_05\lib\i18n.jar;C:\Program Files\Java\jre1.5.0_05\lib\sunrsasign.jar;C:\Program Files\Java\jre1.5.0_05\lib\jsse.jar;C:\Program Files\Java\jre1.5.0_05\lib\jce.jar;C:\Program Files\Java\jre1.5.0_05\lib\charsets.jar;C:\Program Files\Java\jre1.5.0_05\classes
+INFO  JVector [setupLog] - java.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - file.separator = \
+INFO  JVector [setupLog] - java.vendor.url.bug = http://java.sun.com/cgi-bin/bugreport.cgi
+INFO  JVector [setupLog] - sun.cpu.endian = little
+INFO  JVector [setupLog] - sun.io.unicode.encoding = UnicodeLittle
+INFO  JVector [setupLog] - sun.desktop = windows
+INFO  JVector [setupLog] - sun.cpu.isalist = pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+DEBUG JVector [setupLog] - ************************************
+INFO  JVector [setLookAndFeel] - Setting Look and Feel
+DEBUG JVector [setLookAndFeel] - setLookAndFeel() - end
+INFO  JVector [main] - Initialize JVector
+INFO  JVector [<init>] - Starting SplashScreen
+DEBUG JVector [loadProperties] - loadProperties() - start
+DEBUG JVector [loadProperties] - loadProperties() - end
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/splash.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG SplashScreen [<init>] - ImageIcon(ImageIcon jar:file:/C:/Documents%20and%20Settings/Dave/My%20Documents/Software%20Projects/Yr%2012%20SDD%20Major/JVector/JVector/lib/dist/JVector.jar!/Resources/splash.png) - start
+INFO  JVector [<init>] - Setting up GUI...
+DEBUG JVector [<init>] - Creating ColorPanel
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG ColorPanel [initGUI] - initGUI() - start
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/new.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/info.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/switcher.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG ColorPanel [initGUI] - initGUI() - end
+DEBUG ColorPanel [loadSwatches] - loadSwatches() - start
+DEBUG ColorPanel [getSwatches] - getSwatches() - start
+DEBUG ColorPanel [getSwatches] - getSwatches() - end
+DEBUG ColorPanel [loadSwatches] - loadSwatches() - end
+DEBUG JVector [setupFrame] - Setting up the frame
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/icon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [setupFrame] - setupFrame() - end
+DEBUG JVector [setupStatusBar] - Setup Status Bar
+DEBUG JVector [setupStatusBar] - setupStatusBar() - end
+DEBUG JVector [setupMenu] - Setup Menu
+DEBUG JVector [setupFileJM] - Setup File Menu
+DEBUG JVector [createMenuItem] - Create Menu Item: File.New
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Open
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Save
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.SaveAs
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Close
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Export
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Exit
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupFileJM] - setupFileJM() - end
+DEBUG JVector [setupOptionsJM] - setupOptionsJM() - start
+DEBUG JVector [createMenuItem] - Create Menu Item: Options.Preferences
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupOptionsJM] - setupOptionsJM() - end
+DEBUG JVector [setupHelpJM] - setupHelpJM() - start
+DEBUG JVector [createMenuItem] - Create Menu Item: Help.Homepage
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: Help.About
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupHelpJM] - setupHelpJM() - end
+DEBUG JVector [setupMenu] - setupMenu() - end
+DEBUG JVector [setupEditorPane] - Setup the image editing area
+DEBUG JVector [setupToolBar] - setup the tool toolbar
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/zoom_cursor.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createTool] - create tool: select.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/select.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: SELECT
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: line.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/line.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: LINE
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: rectangle.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/rectangle.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: RECTANGLE
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: oval.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/oval.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: OVAL
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: polygon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/polygon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: POLYGON
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: text.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/text.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: TEXT
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: DELETE
+DEBUG JVector [createDeleteListener] - createDeleteListener Listener
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: zoom.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/zoom.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: ZOOM
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [setupToolBar] - setupToolBar() - end
+DEBUG JVector [initExtraBar] - Create 'Extra' tool bar
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector [initExtraBar] - initExtraBar() - end
+DEBUG JVector [setupTabbedPane] - Setup the tabbed image pane GUI
+DEBUG JVector [setupTabbedPane] - setupTabbedPane() - end
+DEBUG JVector [setupEditorPane] - setupEditorPane() - end
+DEBUG JVector$FrameShower [<init>] - FrameShower(Frame) - start
+DEBUG JVector$FrameShower [run] - run() - start
+DEBUG JVector$FrameShower [run] - run() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - start
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - start
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+INFO  JVector [main] - Open any images passed in as arguments
+DEBUG JVector [main] - Create new image for debugging
+INFO  JVector [newImage] - new Image: Debug 1,400,400,Shapes: false
+DEBUG JVector [newImage] - newImage(String, int, int, Shape[]) - end
+INFO  JVector [newImage] - new Image: Debug 2,400,400,Shapes: false
+DEBUG JVector [newImage] - newImage(String, int, int, Shape[]) - end
+DEBUG JVector [actionPerformed] - actionPerformed(ActionEvent) - start
+DEBUG JVector [export] - export() - start
+DEBUG JVector [setupLog] - Log Started...
+INFO  JVector [setupLog] - ***System Environment As Seen By Java***
+INFO  JVector [setupLog] - ***Format: PROPERTY = VALUE***
+INFO  JVector [setupLog] - java.runtime.name = Java(TM) 2 Runtime Environment, Standard Edition
+INFO  JVector [setupLog] - sun.boot.library.path = C:\Program Files\Java\jre1.5.0_05\bin
+INFO  JVector [setupLog] - java.vm.version = 1.5.0_05-b05
+INFO  JVector [setupLog] - java.vm.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - java.vendor.url = http://java.sun.com/
+INFO  JVector [setupLog] - path.separator = ;
+INFO  JVector [setupLog] - java.vm.name = Java HotSpot(TM) Client VM
+INFO  JVector [setupLog] - file.encoding.pkg = sun.io
+INFO  JVector [setupLog] - user.country = AU
+INFO  JVector [setupLog] - sun.os.patch.level = Service Pack 2
+INFO  JVector [setupLog] - java.vm.specification.name = Java Virtual Machine Specification
+INFO  JVector [setupLog] - user.dir = C:\Documents and Settings\Dave\My Documents\Software Projects\Yr 12 SDD Major\JVector\JVector\lib\dist
+INFO  JVector [setupLog] - java.runtime.version = 1.5.0_05-b05
+INFO  JVector [setupLog] - java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+INFO  JVector [setupLog] - java.endorsed.dirs = C:\Program Files\Java\jre1.5.0_05\lib\endorsed
+INFO  JVector [setupLog] - os.arch = x86
+INFO  JVector [setupLog] - java.io.tmpdir = C:\DOCUME~1\Dave\LOCALS~1\Temp\
+INFO  JVector [setupLog] - line.separator = 
+
+INFO  JVector [setupLog] - java.vm.specification.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - user.variant = 
+INFO  JVector [setupLog] - os.name = Windows XP
+INFO  JVector [setupLog] - sun.jnu.encoding = Cp1252
+INFO  JVector [setupLog] - java.library.path = C:\Program Files\Java\jre1.5.0_05\bin;.;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\development\java\apache-ant\bin;C:\development\java\jdk1.5.0_05\bin;C:\Program Files\Common Files\GTK\2.0\bin;C:\Program Files\PuTTY;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\backburner 2\;C:\development\java\jikes-1.21\bin;C:\MATLAB7\bin\win32;C:\development\msys\bin;C:\development\msys\mingw\bin;C:\development\bin;C:\Program Files\ATI Technologies\ATI.ACE\;C:\Program Files\GnuPG
+INFO  JVector [setupLog] - java.specification.name = Java Platform API Specification
+INFO  JVector [setupLog] - java.class.version = 49.0
+INFO  JVector [setupLog] - sun.management.compiler = HotSpot Client Compiler
+INFO  JVector [setupLog] - os.version = 5.1
+INFO  JVector [setupLog] - user.home = C:\Documents and Settings\Dave
+INFO  JVector [setupLog] - user.timezone = Australia/Sydney
+INFO  JVector [setupLog] - java.awt.printerjob = sun.awt.windows.WPrinterJob
+INFO  JVector [setupLog] - file.encoding = Cp1252
+INFO  JVector [setupLog] - java.specification.version = 1.5
+INFO  JVector [setupLog] - user.name = Dave
+INFO  JVector [setupLog] - java.class.path = C:\Documents and Settings\Dave\My Documents\Software Projects\Yr 12 SDD Major\JVector\JVector\lib\dist\JVector.jar
+INFO  JVector [setupLog] - java.vm.specification.version = 1.0
+INFO  JVector [setupLog] - sun.arch.data.model = 32
+INFO  JVector [setupLog] - java.home = C:\Program Files\Java\jre1.5.0_05
+INFO  JVector [setupLog] - java.specification.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - user.language = en
+INFO  JVector [setupLog] - awt.toolkit = sun.awt.windows.WToolkit
+INFO  JVector [setupLog] - java.vm.info = mixed mode, sharing
+INFO  JVector [setupLog] - java.version = 1.5.0_05
+INFO  JVector [setupLog] - java.ext.dirs = C:\Program Files\Java\jre1.5.0_05\lib\ext
+INFO  JVector [setupLog] - sun.boot.class.path = C:\Program Files\Java\jre1.5.0_05\lib\rt.jar;C:\Program Files\Java\jre1.5.0_05\lib\i18n.jar;C:\Program Files\Java\jre1.5.0_05\lib\sunrsasign.jar;C:\Program Files\Java\jre1.5.0_05\lib\jsse.jar;C:\Program Files\Java\jre1.5.0_05\lib\jce.jar;C:\Program Files\Java\jre1.5.0_05\lib\charsets.jar;C:\Program Files\Java\jre1.5.0_05\classes
+INFO  JVector [setupLog] - java.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - file.separator = \
+INFO  JVector [setupLog] - java.vendor.url.bug = http://java.sun.com/cgi-bin/bugreport.cgi
+INFO  JVector [setupLog] - sun.cpu.endian = little
+INFO  JVector [setupLog] - sun.io.unicode.encoding = UnicodeLittle
+INFO  JVector [setupLog] - sun.desktop = windows
+INFO  JVector [setupLog] - sun.cpu.isalist = pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+DEBUG JVector [setupLog] - ************************************
+INFO  JVector [setLookAndFeel] - Setting Look and Feel
+DEBUG JVector [setLookAndFeel] - setLookAndFeel() - end
+INFO  JVector [main] - Initialize JVector
+INFO  JVector [<init>] - Starting SplashScreen
+DEBUG JVector [loadProperties] - loadProperties() - start
+DEBUG JVector [loadProperties] - loadProperties() - end
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/splash.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG SplashScreen [<init>] - ImageIcon(ImageIcon jar:file:/C:/Documents%20and%20Settings/Dave/My%20Documents/Software%20Projects/Yr%2012%20SDD%20Major/JVector/JVector/lib/dist/JVector.jar!/Resources/splash.png) - start
+INFO  JVector [<init>] - Setting up GUI...
+DEBUG JVector [<init>] - Creating ColorPanel
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG ColorPanel [initGUI] - initGUI() - start
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/new.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/info.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/switcher.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG ColorPanel [initGUI] - initGUI() - end
+DEBUG ColorPanel [loadSwatches] - loadSwatches() - start
+DEBUG ColorPanel [getSwatches] - getSwatches() - start
+DEBUG ColorPanel [getSwatches] - getSwatches() - end
+DEBUG ColorPanel [loadSwatches] - loadSwatches() - end
+DEBUG JVector [setupFrame] - Setting up the frame
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/icon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [setupFrame] - setupFrame() - end
+DEBUG JVector [setupStatusBar] - Setup Status Bar
+DEBUG JVector [setupStatusBar] - setupStatusBar() - end
+DEBUG JVector [setupMenu] - Setup Menu
+DEBUG JVector [setupFileJM] - Setup File Menu
+DEBUG JVector [createMenuItem] - Create Menu Item: File.New
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Open
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Save
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.SaveAs
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Close
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Export
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Exit
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupFileJM] - setupFileJM() - end
+DEBUG JVector [setupOptionsJM] - setupOptionsJM() - start
+DEBUG JVector [createMenuItem] - Create Menu Item: Options.Preferences
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupOptionsJM] - setupOptionsJM() - end
+DEBUG JVector [setupHelpJM] - setupHelpJM() - start
+DEBUG JVector [createMenuItem] - Create Menu Item: Help.Homepage
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: Help.About
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupHelpJM] - setupHelpJM() - end
+DEBUG JVector [setupMenu] - setupMenu() - end
+DEBUG JVector [setupEditorPane] - Setup the image editing area
+DEBUG JVector [setupToolBar] - setup the tool toolbar
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/zoom_cursor.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createTool] - create tool: select.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/select.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: SELECT
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: line.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/line.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: LINE
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: rectangle.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/rectangle.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: RECTANGLE
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: oval.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/oval.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: OVAL
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: polygon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/polygon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: POLYGON
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: text.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/text.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: TEXT
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: DELETE
+DEBUG JVector [createDeleteListener] - createDeleteListener Listener
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: zoom.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/zoom.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: ZOOM
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [setupToolBar] - setupToolBar() - end
+DEBUG JVector [initExtraBar] - Create 'Extra' tool bar
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector [initExtraBar] - initExtraBar() - end
+DEBUG JVector [setupTabbedPane] - Setup the tabbed image pane GUI
+DEBUG JVector [setupTabbedPane] - setupTabbedPane() - end
+DEBUG JVector [setupEditorPane] - setupEditorPane() - end
+DEBUG JVector$FrameShower [<init>] - FrameShower(Frame) - start
+DEBUG JVector$FrameShower [run] - run() - start
+DEBUG JVector$FrameShower [run] - run() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - start
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - start
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+INFO  JVector [main] - Open any images passed in as arguments
+DEBUG JVector [main] - Create new image for debugging
+INFO  JVector [newImage] - new Image: Debug 1,400,400,Shapes: false
+DEBUG JVector [newImage] - newImage(String, int, int, Shape[]) - end
+INFO  JVector [newImage] - new Image: Debug 2,400,400,Shapes: false
+DEBUG JVector [newImage] - newImage(String, int, int, Shape[]) - end
+DEBUG JVector [actionPerformed] - actionPerformed(ActionEvent) - start
+DEBUG JVector [export] - export() - start
+DEBUG JVector [setupLog] - Log Started...
+INFO  JVector [setupLog] - ***System Environment As Seen By Java***
+INFO  JVector [setupLog] - ***Format: PROPERTY = VALUE***
+INFO  JVector [setupLog] - java.runtime.name = Java(TM) 2 Runtime Environment, Standard Edition
+INFO  JVector [setupLog] - sun.boot.library.path = C:\Program Files\Java\jre1.5.0_05\bin
+INFO  JVector [setupLog] - java.vm.version = 1.5.0_05-b05
+INFO  JVector [setupLog] - java.vm.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - java.vendor.url = http://java.sun.com/
+INFO  JVector [setupLog] - path.separator = ;
+INFO  JVector [setupLog] - java.vm.name = Java HotSpot(TM) Client VM
+INFO  JVector [setupLog] - file.encoding.pkg = sun.io
+INFO  JVector [setupLog] - user.country = AU
+INFO  JVector [setupLog] - sun.os.patch.level = Service Pack 2
+INFO  JVector [setupLog] - java.vm.specification.name = Java Virtual Machine Specification
+INFO  JVector [setupLog] - user.dir = C:\Documents and Settings\Dave\My Documents\Software Projects\Yr 12 SDD Major\JVector\JVector\lib\dist
+INFO  JVector [setupLog] - java.runtime.version = 1.5.0_05-b05
+INFO  JVector [setupLog] - java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+INFO  JVector [setupLog] - java.endorsed.dirs = C:\Program Files\Java\jre1.5.0_05\lib\endorsed
+INFO  JVector [setupLog] - os.arch = x86
+INFO  JVector [setupLog] - java.io.tmpdir = C:\DOCUME~1\Dave\LOCALS~1\Temp\
+INFO  JVector [setupLog] - line.separator = 
+
+INFO  JVector [setupLog] - java.vm.specification.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - user.variant = 
+INFO  JVector [setupLog] - os.name = Windows XP
+INFO  JVector [setupLog] - sun.jnu.encoding = Cp1252
+INFO  JVector [setupLog] - java.library.path = C:\WINDOWS\system32;.;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\development\java\apache-ant\bin;C:\development\java\jdk1.5.0_05\bin;C:\Program Files\Common Files\GTK\2.0\bin;C:\Program Files\PuTTY;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\backburner 2\;C:\development\java\jikes-1.21\bin;C:\MATLAB7\bin\win32;C:\development\msys\bin;C:\development\msys\mingw\bin;C:\development\bin;C:\Program Files\ATI Technologies\ATI.ACE\;C:\Program Files\GnuPG
+INFO  JVector [setupLog] - java.specification.name = Java Platform API Specification
+INFO  JVector [setupLog] - java.class.version = 49.0
+INFO  JVector [setupLog] - sun.management.compiler = HotSpot Client Compiler
+INFO  JVector [setupLog] - os.version = 5.1
+INFO  JVector [setupLog] - user.home = C:\Documents and Settings\Dave
+INFO  JVector [setupLog] - user.timezone = Australia/Sydney
+INFO  JVector [setupLog] - java.awt.printerjob = sun.awt.windows.WPrinterJob
+INFO  JVector [setupLog] - file.encoding = Cp1252
+INFO  JVector [setupLog] - java.specification.version = 1.5
+INFO  JVector [setupLog] - user.name = Dave
+INFO  JVector [setupLog] - java.class.path = JVector.jar
+INFO  JVector [setupLog] - java.vm.specification.version = 1.0
+INFO  JVector [setupLog] - sun.arch.data.model = 32
+INFO  JVector [setupLog] - java.home = C:\Program Files\Java\jre1.5.0_05
+INFO  JVector [setupLog] - java.specification.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - user.language = en
+INFO  JVector [setupLog] - awt.toolkit = sun.awt.windows.WToolkit
+INFO  JVector [setupLog] - java.vm.info = mixed mode, sharing
+INFO  JVector [setupLog] - java.version = 1.5.0_05
+INFO  JVector [setupLog] - java.ext.dirs = C:\Program Files\Java\jre1.5.0_05\lib\ext
+INFO  JVector [setupLog] - sun.boot.class.path = C:\Program Files\Java\jre1.5.0_05\lib\rt.jar;C:\Program Files\Java\jre1.5.0_05\lib\i18n.jar;C:\Program Files\Java\jre1.5.0_05\lib\sunrsasign.jar;C:\Program Files\Java\jre1.5.0_05\lib\jsse.jar;C:\Program Files\Java\jre1.5.0_05\lib\jce.jar;C:\Program Files\Java\jre1.5.0_05\lib\charsets.jar;C:\Program Files\Java\jre1.5.0_05\classes
+INFO  JVector [setupLog] - java.vendor = Sun Microsystems Inc.
+INFO  JVector [setupLog] - file.separator = \
+INFO  JVector [setupLog] - java.vendor.url.bug = http://java.sun.com/cgi-bin/bugreport.cgi
+INFO  JVector [setupLog] - sun.cpu.endian = little
+INFO  JVector [setupLog] - sun.io.unicode.encoding = UnicodeLittle
+INFO  JVector [setupLog] - sun.desktop = windows
+INFO  JVector [setupLog] - sun.cpu.isalist = pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+DEBUG JVector [setupLog] - ************************************
+INFO  JVector [setLookAndFeel] - Setting Look and Feel
+DEBUG JVector [setLookAndFeel] - setLookAndFeel() - end
+INFO  JVector [main] - Initialize JVector
+INFO  JVector [<init>] - Starting SplashScreen
+DEBUG JVector [loadProperties] - loadProperties() - start
+DEBUG JVector [loadProperties] - loadProperties() - end
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/splash.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG SplashScreen [<init>] - ImageIcon(ImageIcon jar:file:/C:/Documents%20and%20Settings/Dave/My%20Documents/Software%20Projects/Yr%2012%20SDD%20Major/JVector/JVector/lib/dist/JVector.jar!/Resources/splash.png) - start
+INFO  JVector [<init>] - Setting up GUI...
+DEBUG JVector [<init>] - Creating ColorPanel
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG ColorPanel [initGUI] - initGUI() - start
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/new.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - start
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/info.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG ColorPanel [createButton] - createButton(String, String) - end
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/switcher.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG JVector [getRBLocale] - getRBLocale()
+DEBUG ColorPanel [initGUI] - initGUI() - end
+DEBUG ColorPanel [loadSwatches] - loadSwatches() - start
+DEBUG ColorPanel [getSwatches] - getSwatches() - start
+DEBUG ColorPanel [getSwatches] - getSwatches() - end
+DEBUG ColorPanel [loadSwatches] - loadSwatches() - end
+DEBUG JVector [setupFrame] - Setting up the frame
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/icon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [setupFrame] - setupFrame() - end
+DEBUG JVector [setupStatusBar] - Setup Status Bar
+DEBUG JVector [setupStatusBar] - setupStatusBar() - end
+DEBUG JVector [setupMenu] - Setup Menu
+DEBUG JVector [setupFileJM] - Setup File Menu
+DEBUG JVector [createMenuItem] - Create Menu Item: File.New
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Open
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Save
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.SaveAs
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Close
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Export
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: File.Exit
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupFileJM] - setupFileJM() - end
+DEBUG JVector [setupOptionsJM] - setupOptionsJM() - start
+DEBUG JVector [createMenuItem] - Create Menu Item: Options.Preferences
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupOptionsJM] - setupOptionsJM() - end
+DEBUG JVector [setupHelpJM] - setupHelpJM() - start
+DEBUG JVector [createMenuItem] - Create Menu Item: Help.Homepage
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [createMenuItem] - Create Menu Item: Help.About
+DEBUG JVector [createMenuItem] - createMenuItem(String) - end
+DEBUG JVector [setupHelpJM] - setupHelpJM() - end
+DEBUG JVector [setupMenu] - setupMenu() - end
+DEBUG JVector [setupEditorPane] - Setup the image editing area
+DEBUG JVector [setupToolBar] - setup the tool toolbar
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/zoom_cursor.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createTool] - create tool: select.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/select.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: SELECT
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: line.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/line.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: LINE
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: rectangle.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/rectangle.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: RECTANGLE
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: oval.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/oval.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: OVAL
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: polygon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/polygon.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: POLYGON
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: text.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/text.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: TEXT
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/bin.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: DELETE
+DEBUG JVector [createDeleteListener] - createDeleteListener Listener
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [createTool] - create tool: zoom.png
+DEBUG JVector [loadImageIcon] - loadImageIcon: Resources/Tools/zoom.png
+DEBUG JVector [loadImageIcon] - loadImageIcon(String) - end
+DEBUG JVector [createToolListener] - Create tool listener for: ZOOM
+DEBUG JVector [createTool] - createTool(String, String, int) - end
+DEBUG JVector [setupToolBar] - setupToolBar() - end
+DEBUG JVector [initExtraBar] - Create 'Extra' tool bar
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector [initExtraBar] - initExtraBar() - end
+DEBUG JVector [setupTabbedPane] - Setup the tabbed image pane GUI
+DEBUG JVector [setupTabbedPane] - setupTabbedPane() - end
+DEBUG JVector [setupEditorPane] - setupEditorPane() - end
+DEBUG JVector$FrameShower [<init>] - FrameShower(Frame) - start
+DEBUG JVector$FrameShower [run] - run() - start
+DEBUG JVector$FrameShower [run] - run() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - start
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+INFO  JVector [main] - Open any images passed in as arguments
+DEBUG JVector [main] - Create new image for debugging
+INFO  JVector [newImage] - new Image: Debug 1,400,400,Shapes: false
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - start
+DEBUG JVector$MyComponentListener [componentMoved] - componentMoved(ComponentEvent) - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - start
+DEBUG JVector [setupExtraBar] - Setup the extra bar
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - start
+DEBUG JVector [getToolOptionBar] - get shape option panel: NULL
+DEBUG JVector [getToolOptionBar] - getToolOptionBar() - end
+DEBUG JVector [setupExtraBar] - setupExtraBar() - end
+DEBUG JVector$MyComponentListener [componentResized] - componentResized(ComponentEvent) - end
+DEBUG JVector [newImage] - newImage(String, int, int, Shape[]) - end
+INFO  JVector [newImage] - new Image: Debug 2,400,400,Shapes: false
+DEBUG JVector [newImage] - newImage(String, int, int, Shape[]) - end
+DEBUG JVector [actionPerformed] - actionPerformed(ActionEvent) - start
+DEBUG JVector [export] - export() - start
