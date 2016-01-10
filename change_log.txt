@@ -1,10 +1,3 @@
-Version 0.22.0 -
-
-Version 0.20.1 -
-   * Source Clean Ups
-   * Fixed a few bugs
-   * Fixed SVG Plugin
-
 Version 0.20 - 26/10/05
    * About Dialog Added
    * Preferences Dialog Added although currently empty
